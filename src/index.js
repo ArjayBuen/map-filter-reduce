@@ -56,6 +56,10 @@ let total=numbers.reduce(function(accumulator, currentNum){
 console.log(total);
 //Find - find the first item that matches from an array.
 
+let onlyGreaterThanTen=numbers.find(function (num){
+    return num > 10;
+});
+console.log(onlyGreaterThanTen);
 //FindIndex - find the index of the first item that matches.
 
 
