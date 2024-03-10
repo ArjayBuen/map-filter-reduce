@@ -62,4 +62,8 @@ let onlyGreaterThanTen=numbers.find(function (num){
 console.log(onlyGreaterThanTen);
 //FindIndex - find the index of the first item that matches.
 
+let indexGreterThanTen=numbers.findIndex(function(num){
+    return num>10;
+});
 
+console.log(indexGreterThanTen)
